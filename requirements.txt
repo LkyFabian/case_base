@@ -1,0 +1,29 @@
+# REQUIREMENTS.TXT
+# Python dependencies (jika ada)
+
+# CORE REQUIREMENTS:
+# Python 3.7+
+
+# NOTES:
+# - Program ini menggunakan PURE PYTHON saja
+# - Tidak ada dependency eksternal yang diperlukan
+# - Semua library yang digunakan adalah built-in Python:
+#   * json (for data persistence)
+#   * typing (for type hints)
+#   * dataclasses (for data structures)
+#   * datetime (for timestamps)
+#   * os (for file operations)
+#   * unittest (for testing)
+#   * collections (for Counter in analysis)
+
+# OPTIONAL (untuk future improvements):
+# numpy==1.24.0          # For advanced numerical operations
+# pandas==1.5.0          # For data analysis
+# scikit-learn==1.2.0    # For ML algorithms
+# flask==2.3.0           # For web application
+# sqlite3                # For database (already built-in)
+
+# DEVELOPMENT:
+# pytest==7.0.0          # For advanced testing
+# black==23.0.0          # For code formatting
+# pylint==2.16.0         # For code analysis
